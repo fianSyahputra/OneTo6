@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hitam">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/merah"
+        android:layout_weight="3">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="APA ITU "
+            android:id="@+id/textView9"
+            android:layout_weight="1"
+            android:gravity="top|center"
+            android:textSize="70sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="ONE TO SIX ?"
+            android:id="@+id/textView10"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textView11"
+        android:layout_weight="2"
+        android:text="OneToSix adalah permainan matematika dasar. Anda hanya harus menjumlah angka. Anda hanya diberikan pilihan untuk menjumlah dengan angka 1 sampai 6. Yang menjumlahkan angka dan mendapat hasil 50 , dialah pemenangnya !"
+        android:textColor="@color/putih"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="BACK"
+        android:id="@+id/buttonBack"
+        android:layout_weight="4" />
+</LinearLayout><!-- From: file:/C:/Users/fian/AndroidStudioProjects/OneToSix2/app/src/main/res/layout/penjelasan.xml -->
